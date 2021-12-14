@@ -1,3 +1,6 @@
 from generator.mail import Constructor
 
-print(Constructor.__dict__)
+
+mail = Constructor()
+
+print(mail)
