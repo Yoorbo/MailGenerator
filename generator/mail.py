@@ -75,3 +75,13 @@ class Constructor:
         self.head, self.body, self.peroration = self.Head(), self.Body(), self.Peroration()
         self.sender, self.recipient = self.Sender(), self.Recipient()
         self.date, self.adress = self.Date(), self.Adress()
+
+    def generate_seed(self):
+        """
+            Generates a random mail seed as integer
+        """
+
+    def generate_string(self):
+        """
+            Generates a string fitting the generator component
+        """
